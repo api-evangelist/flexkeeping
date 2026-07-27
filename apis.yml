@@ -1,22 +1,88 @@
 aid: flexkeeping
 name: Flexkeeping
-description: Flexkeeping is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flexkeeping is a hotel operations automation platform (owned by Mews) that
+  streamlines housekeeping, maintenance, front-office collaboration, and quality
+  assurance for hotels and resorts. It centralizes staff task management,
+  automated room cleaning schedules, checklists, lost-and-found, and guest
+  service requests, and connects to major property management systems so
+  operational teams can reduce manual work, coordinate across departments, and
+  improve the guest experience across thousands of properties worldwide.
+  Flexkeeping is an integration consumer rather than an API producer: it does
+  not publish a public developer portal, OpenAPI definition, or API keys.
+  Instead it ships pre-built connectors into PMS platforms including Mews,
+  Apaleo, Oracle OPERA Cloud, Cloudbeds, RMS Cloud, Guesty, Shiji, Protel,
+  SiHot, and Beds24.
 url: https://raw.githubusercontent.com/api-evangelist/flexkeeping/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://flexkeeping.com/hubfs/Landing_new.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
+x-acquired-by: mews
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Hospitality
+- Hotels
+- Hotel Operations
+- Housekeeping
+- Property Management
+- Integrations
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/flexkeeping-domain-security.yml
+- name: Flexkeeping Website
+  url: https://flexkeeping.com
+  type: Website
+- name: Integrations
+  url: https://flexkeeping.com/integrations
+  type: Integrations
+- name: Help Center
+  url: https://flexkeeping-help.freshdesk.com/
+  type: Support
+- name: Blog
+  url: https://flexkeeping.com/blog
+  type: Blog
+- name: Product News
+  url: https://flexkeeping.com/product-news
+  type: ProductNews
+- name: Careers
+  url: https://flexkeeping.com/careers
+  type: Careers
+- name: About
+  url: https://flexkeeping.com/about
+  type: About
+- name: Privacy Policy
+  url: https://flexkeeping.com/privacy-policy
+  type: PrivacyPolicy
+- name: Cookie Policy
+  url: https://flexkeeping.com/cookie-policy
+  type: CookiePolicy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
