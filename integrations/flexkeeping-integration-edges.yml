@@ -1,0 +1,60 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- apaleo/integrations/apaleo-integration-edges.yml
+- guesty/integrations/guesty-integration-edges.yml
+- mews-com/integrations/mews-com-integration-edges.yml
+source:
+- apaleo/integrations/apaleo-integration-edges.yml
+- guesty/integrations/guesty-integration-edges.yml
+- mews-com/integrations/mews-com-integration-edges.yml
+edges:
+- partner_name: apaleo (own)
+  partner: apaleo
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://store.apaleo.com/apps/flexkeeping
+  mirror_of: apaleo/integrations/apaleo-integration-edges.yml
+  apps:
+  - Flexkeeping
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Housekeeping & Staff collaboration
+- partner_name: Guesty (own)
+  partner: guesty
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.guesty.com/marketplace-items/flexkeeping/
+  mirror_of: guesty/integrations/guesty-integration-edges.yml
+  apps:
+  - Flexkeeping Cleaning Management for Your Property- Guesty
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+- partner_name: Mews (own)
+  partner: mews-com
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.mews.com/en/products/marketplace/flexkeeping
+  mirror_of: mews-com/integrations/mews-com-integration-edges.yml
+  apps:
+  - Flexkeeping
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
